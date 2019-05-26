@@ -1,0 +1,5 @@
+fetch('./fetchData.json')
+  .then(data => data.json())
+  .then((json) => console.log("FetchData.json", json))
+  .catch(error => console.error(error))
+  .finally(() => console.log(".finally::", 'finished!'))

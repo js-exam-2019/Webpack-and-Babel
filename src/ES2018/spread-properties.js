@@ -1,0 +1,11 @@
+const { first, second, ...others } = {
+	first: 1,
+	second: 2,
+	third: 3,
+	fourth: 4,
+	fifth: 5
+};
+
+console.log("first::", first);
+console.log("second::", second);
+console.log("others::", others);
